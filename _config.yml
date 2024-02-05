@@ -16,7 +16,6 @@ navbar_links:
     url: "/blog"
   - text: Contact
     url: "/contact"
-
 # Social Media Links
 social:
   - title: Twitter
