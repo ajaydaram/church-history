@@ -9,7 +9,7 @@ url: "http://example.com" # the base hostname & protocol for your site
 # Navigation links
 navbar_links:
   - text: Home
-    url: "/"
+    url: "/index.html"
   - text: About
     url: "/about"
   - text: Blog
