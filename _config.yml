@@ -1,21 +1,23 @@
 # Site settings
-title: Church History
-email: daramajaymarchus@gmail.com
-description: >- # A multiline description, you can edit this
-  "Welcome to our Church History Blog, a special place where we uncover the incredible story of our faith community throughout time. This blog is like a time machine, taking you from the earliest days of our church to the present. We'll share the amazing moments, challenges faced, and the inspiring stories that have shaped who we are today. Whether you're a long-time member or just curious, join us on this adventure through history. Each post is a chance to reflect, connect, and gain a deeper understanding of the journey that has brought us together. We're exploring the roots of our congregation, celebrating where we are now, and imagining where we're headed. Come along as we dive into the fascinating and lasting tale of our church's history!"
-baseurl: "/posts" # the subpath of your site, e.g. /blog
+title: Your Site Title
+email: your@email.com
+description: >-
+  Welcome to our website. This is a brief description of what our site is about.
+
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://example.com" # the base hostname & protocol for your site
 
 # Navigation links
 navbar_links:
   - text: Home
-    url: "/index.html"
+    url: "/"
   - text: About
     url: "/about"
   - text: Blog
     url: "/blog"
   - text: Contact
     url: "/contact"
+
 # Social Media Links
 social:
   - title: Twitter

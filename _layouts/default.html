@@ -6,19 +6,11 @@
   <title>{{ page.title | default: site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
   <!-- Add your additional meta tags, styles, or scripts here -->
-
-  <!-- Social Media Links -->
-  <ul class="social-links">
-    {% for link in site.social %}
-      <li><a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title }}</a></li>
-    {% endfor %}
-  </ul>
 </head>
 <body>
   <header>
     <h1>{{ site.title }}</h1>
     <p>{{ site.description }}</p>
-
     <!-- Navigation Links -->
     <nav>
       <ul>
@@ -28,13 +20,10 @@
       </ul>
     </nav>
   </header>
-
   <main>
     {{ content }}
   </main>
-
   <!-- Add your footer content here -->
-
   <!-- Jekyll-generated footer -->
   <footer>
     <p>&copy; {{ site.title | date: "%Y" }}</p>
