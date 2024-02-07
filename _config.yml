@@ -1,10 +1,10 @@
 # Site settings
-title: Your Site Title
+title: Church History
 email: your@email.com
 description: >-
   Welcome to our website. This is a brief description of what our site is about.
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://example.com" # the base hostname & protocol for your site
 
 # Navigation links
